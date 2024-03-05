@@ -1,0 +1,178 @@
+@media (max-width: 1480px) {
+  header {
+    padding: 12px 2.5%;
+    transition: .1s;
+  }
+
+  section {
+    padding: 110px 3% 60px;
+  }
+
+  .end {
+    padding: 15px 3%;
+  }
+}
+@media (max-width: 1100px){
+  :root{
+    --big-font:4rem;
+    --h2-font:2.5rem;
+    --p-font:1rem;
+    transition: .1s;
+  }
+  .home-text h3{
+    font-size: 2.5rem;
+  }
+  .home{
+    height: 87vh;
+  }
+}
+@media (max-width: 1024px){
+  .about, .contact {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-text p{
+    font-size: 14px;
+  }
+  .services-content, .contact-text {
+    text-align: center;
+  }
+  .services-content{
+    gap: 20px;
+  }
+  .box h3{
+    font-size: 20px;
+  }
+  .box p{
+    font-size: 13px;
+  }
+  .portfolio-content{
+    gap:1rem;
+  }
+  .btn{
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+@media (max-width:920){
+  :root {
+    --big-font: 2.375rem;
+    --h2-font: 1.5rem;
+    --p-font: 1rem;
+  }
+  .services-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+  }
+  .about{
+    grid-template-columns: 1fr;
+  }
+  .about-img img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+  .contact{
+    grid-template-columns: 1fr;
+  }
+
+  
+}
+@media (max-width: 1024px){
+  .logo{
+    width: 33%;
+    font-size: 30px;
+  }
+  .menu{
+    display: none;
+  }
+  .mobile {
+    display: block;
+    width: 33%;
+    text-align: end;
+  }
+  .social {
+    width: 33%;
+    text-align: center;
+  }
+  .contact-icons{
+    justify-content: center;
+  }
+}
+@media (max-width: 768px){
+  .box{
+    padding: 30px 20px;
+  }
+  .logo{
+    width: 70%;
+    font-size: 30px;
+  }
+  .social {
+    width: 20%;
+    margin-right: 15px;
+    text-align: end;
+  }
+  .mobile {
+    width: 10%;
+    text-align: end;
+  }
+  .contact-form {
+    text-align: center;
+  }
+  .contact-form .submit {
+    font-size: 13px;
+  }
+}
+@media (max-width: 600px ){
+  .home-text h1, .home-text h3{
+    font-size: 30px;
+  }
+  .home-text p{
+    width: 85%;
+  }
+  .one, .two {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .services-content{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px){
+  :root {
+    --big-font: 2.375rem;
+    --h2-font: 1.5rem;
+    --p-font: 1rem;
+  }
+  .home{
+    background-position-x: -540px;
+  }
+  .logo{
+    width: 60%;
+    font-size: 22px;
+  }
+  .social {
+    width: 25%;
+    text-align: end;
+  }
+  .mobile {
+    width: 20%;
+    text-align: end;
+  }
+  .home-text h3{
+    font-size: 1.563rem;
+  }
+  .home-text p{
+    width: 90%;
+  }
+}
